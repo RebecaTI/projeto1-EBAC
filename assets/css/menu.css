@@ -56,14 +56,14 @@ header{
     .nav-list{
         display:none;
     }
-
-    #mobile-menu #mobile-nav-list{
-        display:none;
-    }
-
+    
     #mobile-nav-list,
     .mobile-menu-icon{
         display:block;
+    }
+
+    #mobile-menu{
+        display:none;
     }
 
     .mobile-menu-icon button{
@@ -104,6 +104,10 @@ header{
 
     #mobile-nav-item{
         padding:.7rem;
+    }
+
+    #mobile-nav-list{
+        display:none;
     }
 
     .open {

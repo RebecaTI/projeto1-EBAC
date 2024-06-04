@@ -1,12 +1,12 @@
-const menuMobile = document.querySelector('#mobile-menu #mobile-nav-list');
+const menuMobile = document.querySelector(' #mobile-nav-list');
 const btnMobile = document.querySelector('.mobile-menu-icon button')
 console.log(btnMobile)
 
 function showMenu(){
-    if(menuMobile){
-        menuMobile.style.display = "block";
+    if(menuMobile.classList.contains('open')){
+        menuMobile.classList.remove('open');
     } else {
-        menuMobile.style.display = "none";
+        menuMobile.classList.add('open');
     }
 }
 
