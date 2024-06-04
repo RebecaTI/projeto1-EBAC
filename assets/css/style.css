@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /*cores*/
+    --azul-intenso: #08013e;
+    --branco: #FFFFFF;
+    --azul-claro: #48a8cb;
+
+    /* fontes */
+
+}
+
