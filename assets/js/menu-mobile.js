@@ -5,8 +5,10 @@ console.log(btnMobile)
 function showMenu(){
     if(menuMobile.classList.contains('open')){
         menuMobile.classList.remove('open');
+        menuMobile.classList.style.display='none';
     } else {
         menuMobile.classList.add('open');
+        menuMobile.classList.style.display='block';
     }
 }
 
