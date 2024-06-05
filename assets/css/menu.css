@@ -75,7 +75,7 @@ header{
 }
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 800px){
     
     .nav-list{
         display:none;
@@ -113,7 +113,7 @@ header{
         list-style: none;
         display:flex;
         flex-direction: column;
-        align-items:center;
+        align-self:center;
     }
 
     #mobile-nav-list .nav-item{
@@ -128,6 +128,12 @@ header{
 
     #mobile-nav-item{
         padding:.7rem;
+    }
+
+    .nav-item a:before{
+        width: 70%;
+        height: 1px;
+        
     }
 
     #mobile-nav-list{

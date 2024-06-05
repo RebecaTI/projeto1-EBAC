@@ -1,0 +1,47 @@
+.home-img{
+  height: 40vw;
+  width: 100%;
+  object-fit:cover;
+}
+
+.container-info{
+  display:flex;
+  justify-content:space-around;
+  padding:60px 0;
+}
+
+.info{
+  display: flex;
+  width:30%;
+}
+
+.info img{
+  max-width: 50px;
+  max-height: 50px;
+  width:auto;
+  height:auto;
+}
+
+.info div{
+  padding-left: 1rem;
+}
+
+.title-info{
+  font-size:1.2rem;
+  font-weight:bold;
+  align-self:center;
+  margin-bottom: 8px;
+}
+
+.text-info{
+  margin-bottom: 10px;
+}
+
+.link-info{
+  text-decoration: none;
+  text-transform:uppercase;
+  cursor:pointer;
+  color: var(--azul-claro);
+}
+
+/* Adicionar fontes dferentes p titulo, paragrafo e link */
