@@ -6,11 +6,12 @@ header{
 #navbar,
 #navbar ul {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 #header-title{
+    font-family: var(--site-tittle);
     font-size: 1.5rem;
     text-transform: uppercase;
     color: var(--branco);
@@ -19,7 +20,7 @@ header{
 }
 
 #header-small{
-    font-size:10px;
+    font-size:1rem;
 }
 
 .nav-list ul{
@@ -27,7 +28,6 @@ header{
     list-style: none;
     justify-content: center;
 }
-
 
 .nav-item a{
     color:var(--branco);

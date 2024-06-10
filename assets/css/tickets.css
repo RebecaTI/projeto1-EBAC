@@ -1,0 +1,22 @@
+#tickets{
+  position:relative;
+  padding-bottom: 60px;
+}
+
+#tickets img{
+  width:100%;
+  height:400px;
+}
+
+.tickets-txt{
+  color:var(--branco);
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  right:200px;
+  font-size: 1.5rem;
+  }
+  
+  .tickets-txt h2{
+  padding-bottom: 20px;
+}

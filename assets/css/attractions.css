@@ -12,11 +12,30 @@
   width: 200px;
 }
 
+.img-attractions-mobile{
+  display:none;
+}
+
 @media screen and (max-width: 800px){
 
-  .tilt-effect{
+  #attractions{
+    padding-bottom: 20px;
+  }
+
+  .img-attractions{
+    display:none;
+  }
+
+  .img-attractions-mobile{
     display:flex;
     flex-direction: column;
+    /* padding: 0 30px; */
+    align-items: center;
+  }
+
+  .img-mobile{
+    padding-bottom: 20px;
+    width: 80%;
   }
 
 }
