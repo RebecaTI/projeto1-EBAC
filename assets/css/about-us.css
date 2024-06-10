@@ -1,0 +1,32 @@
+#about-us{
+  display: flex;
+  padding: 0 50px;
+  padding-bottom: 70px;
+}
+
+#about-us .main-title{
+  color:var(--azul-intenso);
+  font-size: 2rem;
+  padding-bottom: 25px;
+  display:flex;
+}
+
+.about-itens{
+  display:grid;
+  grid-template-columns: 50px 2fr;
+  padding-bottom: 30px;
+}
+
+.about-itens img{
+  width:30px;
+  height: 30px;
+}
+
+.about-itens h2{
+  padding-bottom: 10px;
+  color: var(--azul-intenso);
+}
+
+#about-us-img{
+  width:400px;
+}

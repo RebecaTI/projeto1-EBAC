@@ -6,9 +6,11 @@
 
 :root{
     /*cores*/
-    --azul-intenso: #0b014f;
+    --azul-extra-intenso: #0e0260;
+    --azul-intenso: #170490;
     --branco: #FFFFFF;
     --azul-claro: #48a8cb;
+    --azul-escuro: #494bd2;
 
     /* fontes */
 

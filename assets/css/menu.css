@@ -1,6 +1,6 @@
 header{
-    background:var(--azul-intenso);
-    padding: 1rem;
+    background:var(--azul-extra-intenso);
+    padding: 5px;
 }
 
 #navbar,
@@ -11,7 +11,7 @@ header{
 }
 
 #header-title{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     color: var(--branco);
     text-decoration: none;
@@ -19,7 +19,7 @@ header{
 }
 
 #header-small{
-    font-size:1rem;
+    font-size:10px;
 }
 
 .nav-list ul{
@@ -58,7 +58,7 @@ header{
     text-transform:uppercase;
     padding: .8rem;
     background:var(--azul-claro);
-    border-radius: 20px;
+    border-radius: 15px;
     font-weight: bolder;
     margin-left: 2rem;
     cursor: pointer;

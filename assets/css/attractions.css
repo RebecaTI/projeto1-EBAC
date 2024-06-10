@@ -1,0 +1,22 @@
+#attractions{
+  padding-bottom: 70px;
+}
+
+.tilt-effect{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-tilt-effect {
+  width: 200px;
+}
+
+@media screen and (max-width: 800px){
+
+  .tilt-effect{
+    display:flex;
+    flex-direction: column;
+  }
+
+}
