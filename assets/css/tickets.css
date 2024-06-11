@@ -1,22 +1,45 @@
 #tickets{
   position:relative;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 #tickets img{
   width:100%;
-  height:400px;
+  height:350px;
+
+  background-attachment: fixed;
 }
 
 .tickets-txt{
   color:var(--branco);
+  font-family:var(--txt-font);
   position: absolute;
   text-align: center;
   top: 150px;
-  right:200px;
-  font-size: 1.5rem;
+  right:150px;
+  font-size: 1.3rem;
   }
   
-  .tickets-txt h2{
-  padding-bottom: 20px;
+.tickets-tittle{
+  padding-bottom: 15px;
+  font-family: var(--tittle-font);
+  /* font-style: oblique; */
+}
+
+.tickets-txt p{
+  padding-bottom: 35px;
+}
+
+#tickets-button{
+  font-weight: bold;
+  letter-spacing: .3px;
+  background: var(--amarelo-queimado);
+  padding: .6rem;
+  border-radius:5px;
+  border: transparent;
+  cursor:pointer;
+}
+
+#tickets-button:hover{
+  background: var(--amarelo-queimado-hover);
 }

@@ -1,0 +1,8 @@
+footer {
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  background: var(--azul-extra-intenso);
+  color:var(--branco);
+  padding: 1rem;
+}

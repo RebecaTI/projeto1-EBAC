@@ -26,22 +26,16 @@
             <div class="nav-list">
                 <ul>
                     <li class="nav-item">
-                        <a href="#">O aquario</a>
+                        <a href="#galery">Galeria</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">Visita</a>
+                        <a href="#attractions">Atrações</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">Educação</a>
+                        <a href="#about-us">Sobre nós</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">Conservação</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Contato</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Aqualoja</a>
+                        <a href="#contact">Contato</a>
                     </li>
                     <li>
                         <button id="btn-default">Ingressos</button>  
@@ -167,16 +161,54 @@
     <section id="tickets">
         <img src="./assets/image/aquario-aquario-m-rio-janeiro-19.jpg" alt="tubarão dentro de um aquario">
         <div class="tickets-txt">
-            <h2>Quer saber como é um tubarão de perto?</h2>
+            <h2 class="tickets-tittle">Quer saber como é um tubarão de perto?</h2>
             <p>Venha para o Aquário!</p>
-            <button type="button">Comprar Ingressos</button>
+            <button id="tickets-button" type="button">Comprar Ingressos</button>
         </div>
     </section>
 
+    <section id="contact">
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Nome" id="nome" class="item" autocomplete="on">
+                    <div class="error-txt">O nome não pode ficar em branco</div>
+                </div>
+
+                <div class="input-field field">
+                    <input type="text" placeholder="Email" id="email" class="item" autocomplete="on">
+                    <div class="error-txt email">Email não pode ficar em branco</div>
+                </div>
+            </div>
+
+            <div class="input-field field">
+                <input type="text" placeholder="Assunto" id="assunto" class="item" autocomplete="off">
+                <div class="error-txt ">Por favor escreva o assunto</div>
+            </div>
+
+                <div class="textarea-field field">
+                    <textarea name="" id="message" cols="30" class="item" placeholder="Sua mensagem"></textarea>
+
+                    <button type="submit">Enviar</button>
+                </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>@Copia Aquário De Ubatuba - todos os direitos reservados - 2024</p>
+    </footer>
+
     <script src="./assets/js/vanilla-tilt.js"></script>
     <script src="./assets/js/menu-mobile.js"></script>
-    <!-- https://aquariodeubatuba.com.br/ -->
-</body>
-</html>
+    </body>
+    </html>
 
-<!-- COLOCAR AS FONTES -->
+
+<!-- https://aquariodeubatuba.com.br/ -->
+
+<!-- PERGUNTAR AO PROFESSOR
+1- Como fazer aquelas bordas na imagem? não border-radius mas é como se as bordas fizecem um formato de ondas.
+
+2- Como usar o efeito de imagem? No exemplo do site https://aquariodeubatuba.com.br/ a imagem do tubarao parece em movimento. Tentei usar o background-attachment: fixed; mas não funcionou
+ -->
+
