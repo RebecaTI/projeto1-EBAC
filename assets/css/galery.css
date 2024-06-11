@@ -2,13 +2,13 @@
   height: 40vw;
   width: 100%;
   object-fit:cover;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 .container-info{
   display:flex;
   justify-content:space-around;
-  padding-bottom:30px;
+  padding-bottom:60px;
 }
 
 .info{
@@ -29,13 +29,16 @@
 
 .title-info{
   font-size:1.2rem;
-  font-weight:bold;
+  font-family: var(--tittle-font);
+  /* font-weight:bold; */
+  font-style: italic;
   align-self:center;
   margin-bottom: 8px;
 }
 
 .text-info{
   margin-bottom: 10px;
+  font-family: var(--txt-font);
 }
 
 .link-info{
